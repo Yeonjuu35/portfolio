@@ -1,0 +1,48 @@
+// 폰트 색상
+$peaceGreen : #74BF31;
+$peaceOrange : #FF8100;
+$peaceBlue : #1A1C26;
+$textBlack : #000000;
+$textGray : #333333;
+$textWhite : #ffffff;
+$formGray : #848484;
+
+
+
+
+#mainSlider{
+  position: relative;
+  padding: 0 3rem;
+  height: auto;
+  .swiper{
+    width: 100%;
+    height: auto;
+        .swiper-wrapper{
+            .swiper-slide{
+            // display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+                .swiper-slide img {
+                // display: block;
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                }
+                .mainTitle{
+
+                }
+                .mainText{
+                    
+                }
+        }
+        .swiperPagination{
+            
+        }
+
+        }
+    }
+}
+
+
+

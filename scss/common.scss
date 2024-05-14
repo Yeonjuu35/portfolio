@@ -11,7 +11,7 @@ $formGray : #848484;
 $letterspace06 : -0.05rem;
 $letterspace08 : 1rem;
 $letterspace500 : 5rem;
-$letterspace1200 : 12rem;
+$letterspace1200 : 7rem;
 $lineheight25 : 1.25rem;
 $lineheight27 : 1.5rem;
 
@@ -46,6 +46,7 @@ $lineheight27 : 1.5rem;
     font-weight: 700;
     font-size: 35px;
     letter-spacing: $letterspace1200;
+    white-space: nowrap;
 }
 // noto sans kr
 .notoThin{

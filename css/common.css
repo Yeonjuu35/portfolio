@@ -30,7 +30,8 @@
   font-family: "josepin sans";
   font-weight: 700;
   font-size: 35px;
-  letter-spacing: 12rem;
+  letter-spacing: 7rem;
+  white-space: nowrap;
 }
 
 .notoThin {
