@@ -1,6 +1,7 @@
 // 폰트 색상
 $peaceGreen : #74BF31;
 $peaceOrange : #FF8100;
+$peaceBlue : #1A1C26;
 $textBlack : #000000;
 $textGray : #333333;
 $textWhite : #ffffff;
@@ -165,3 +166,41 @@ $lineheight27 : 1.5rem;
 }
 
 // 그리드 가이드
+.sectionBlank{
+    margin-bottom: 200px;
+}
+.titleBlank{
+    margin-bottom: 25px;
+}
+.textBlank{
+    margin-bottom: 35px;
+}
+.imageBlank{
+    margin-bottom: 20px;
+}
+.issueBlank{
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 991px) {
+    .sectionBlank{
+        margin-bottom: 200px;
+    }
+    .titleBlank{
+        margin-bottom: 25px;
+    }
+    .textBlank{
+        margin-bottom: 35px;
+    }
+    .imageBlank{
+        margin-bottom: 20px;
+    }
+    .issueBlank{
+        margin-bottom: 12px;
+    }
+}
+
+// 공통 css
+a{
+    text-decoration: none;
+    color: $textBlack;
+}

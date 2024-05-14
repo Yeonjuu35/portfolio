@@ -1,0 +1,49 @@
+// 폰트 색상
+$peaceGreen : #74BF31;
+$peaceOrange : #FF8100;
+$peaceBlue : #1A1C26;
+$textBlack : #000000;
+$textGray : #333333;
+$textWhite : #ffffff;
+$formGray : #848484;
+
+
+
+
+#footer{
+    background-color: $peaceBlue;
+    .footerMenu{
+        color : $textWhite;
+        .footerList{
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            li{
+                margin-right: 2rem;
+               a{
+                color : $textWhite !important;
+                }
+            }   
+        }
+        .bottomMenu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #5F6168;
+            padding: 2rem;
+                .copyright{
+                    white-space: nowrap;
+                }
+                .sns{
+                    display: flex;
+                    img{
+                        display: block;
+                        margin-left: 0.8rem;
+                        height: 28px;
+                        width: auto;
+                    }   
+                }
+            }
+        }
+        
+}

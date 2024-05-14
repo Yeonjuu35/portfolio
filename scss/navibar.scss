@@ -1,62 +1,58 @@
 // 폰트 색상
 $peaceGreen : #74BF31;
 $peaceOrange : #FF8100;
+$peaceBlue : #1A1C26;
 $textBlack : #000000;
 $textGray : #333333;
 $textWhite : #ffffff;
 $formGray : #848484;
 
-.d-flex-navi{
-    display: flex;
-    margin: 0 48px;
-}
-.d-flex{
-    display: flex;
-}
-a{
-    text-decoration: none;
-    color: $textBlack;
-}
-.naviBar{
-    justify-content: space-between;
-    align-items: center;
-    .logo {
 
-        .logoimg{
-            width: 161px;
-            height: auto;
-        }
-    }
-    .gnb{
 
-        li{
-            margin: 0 2.5rem;
-        }
-    }
-    .sideMenu{
-        justify-content: center;
+
+#hd_navi{
+    .naviBar{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        li{
-            i{
-                margin-right: 1.5rem;
-                font-size: 1.3rem;
-                font-weight: bold;
-            }
-            span{
-                position : absolute;
-                width : 0;
-                height : 0;
-                display : block;
-                overflow : hidden;
-                opacity : 0;
-            }
-            .naviBottom{
-                background-color: $peaceOrange;
-                color: $textWhite;
-                padding: 2.5rem 3.5rem;
-                display: block;
+        padding: 0 3rem;
+        .logo {
+            .logoimg{
+                width: 161px;
+                height: auto;
             }
         }
-
+        .gnb{
+            display: flex;
+            li{
+                margin: 0 2.5rem;
+            }
+        }
+        .sideMenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                i{
+                    margin-right: 1.5rem;
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                }
+                span{
+                    position : absolute;
+                    width : 0;
+                    height : 0;
+                    display : block;
+                    overflow : hidden;
+                    opacity : 0;
+                }
+                .naviBottom{
+                    background-color: $peaceOrange;
+                    color: $textWhite;
+                    padding: 2.5rem 3.5rem;
+                    display: block;
+                }
+            }
+        }
     }
 }

@@ -167,3 +167,45 @@
   font-size: 20px;
   letter-spacing: -0.05rem;
 }
+
+.sectionBlank {
+  margin-bottom: 200px;
+}
+
+.titleBlank {
+  margin-bottom: 25px;
+}
+
+.textBlank {
+  margin-bottom: 35px;
+}
+
+.imageBlank {
+  margin-bottom: 20px;
+}
+
+.issueBlank {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 991px) {
+  .sectionBlank {
+    margin-bottom: 200px;
+  }
+  .titleBlank {
+    margin-bottom: 25px;
+  }
+  .textBlank {
+    margin-bottom: 35px;
+  }
+  .imageBlank {
+    margin-bottom: 20px;
+  }
+  .issueBlank {
+    margin-bottom: 12px;
+  }
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}

@@ -1,0 +1,16 @@
+// 폰트 색상
+$peaceGreen : #74BF31;
+$peaceOrange : #FF8100;
+$peaceBlue : #1A1C26;
+$textBlack : #000000;
+$textGray : #333333;
+$textWhite : #ffffff;
+$formGray : #848484;
+
+.scrollbutton{
+    position: fixed;
+    right: 20px;
+    bottom: 50vh;
+    background-color: $peaceBlue;
+    border: 1px solid none;
+}

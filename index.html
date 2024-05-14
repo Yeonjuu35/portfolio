@@ -49,19 +49,21 @@
     <!-- 커스터마이징 -->
     <link rel="stylesheet" href="./css/common.min.css">
     <link rel="stylesheet" href="./css/navibar.min.css">
+    <link rel="stylesheet" href="./css/footer.min.css">
+    <link rel="stylesheet" href="./css/quick.min.css">
 </head>
 
 <body>
     <header id="hd_navi">
-        <div class="d-flex-navi naviBar">
+        <div class="naviBar">
             <h1 class="logo"><a href="#"><img class="logoimg" src="img/png/Greenpeace_logo.png" alt="logo"></a></h1>
-            <ul class="gnb d-flex notoSemi1806">
+            <ul class="gnb notoSemi1806">
                 <li><a href="#">소개</a></li>
                 <li><a href="#">활동</a></li>
                 <li><a href="#">캠페인</a></li>
                 <li><a href="#">참여</a></li>
             </ul>
-            <ul class="sideMenu d-flex">
+            <ul class="sideMenu">
                 <li><i class="bi bi-search"></i><span>검색</span></li>
                 <li><i class="bi bi-globe"></i><span>번역</span></li> 
                 <li><a class="notoSemi20 naviBottom" href="#">후원하기</a></li>
@@ -69,33 +71,61 @@
         </div>
     </header>
 
-    <section class="main_slider">
+    <section id="mainSlider">
     </section>
 
-    <section class="main_contents">
+    <section id="mainContents">
     </section>
 
-    <section class="issue">
+    <section id="issue" class="sectionBlank">
     </section>
 
-    <section class="campaine">
+    <section id="campaine" class="sectionBlank">
     </section>
 
-    <section class="project">
+    <section id="project" class="sectionBlank">
     </section>
 
-    <section class="support">
+    <section id="support" class="sectionBlank">
     </section>
 
-    <section class="newslatter">
+    <section id="newslatter" class="sectionBlank">
     </section>
 
-    <footer class="footer">
-    </footer>
-
-    <aside class="quick_button">
+    <footer id="footer">
+        <div class="footerMenu">
+            <ul class="footerList notoRegular16">
+                <li><a href="#">개인정보</a></li>
+                <li><a href="#">보호정책</a></li>
+                <li><a href="#">그린피스</a></li>
+                <li><a href="#">이용약관저작권</a></li>
+                <li><a href="#">이전홈페이지</a></li>
+                <li><a href="#">국세청</a></li>
+                <li><a href="#">행정안전부</a></li>
+                <li><a href="#">고유번호</a></li>
+            </ul>
+                <div class="bottomMenu">
+                    <p class="copyright notoThin">
+                        Copyright ©2024 Greenpeace. All Rights Reserved. | 재단법인 그린피스 | 대표자: 남부원 | 주소: 서울시 용산구 한강대로 257 청룡빌딩 6층 (우편번호: 04322) | 고유번호: 105-82-21567
+                    </p>
+                    <ul class="sns">
+                        <li><a href="#"><img class="Facebook" src="./img/svg/Facebook.svg" alt="#"></a></li>
+                        <li><a href="#"><img class="Twitter" src="./img/svg/Twitter.svg" alt="#"></a></li>
+                        <li><a href="#"><img class="Instagram" src="./img/svg/Instagram.svg" alt="#"></a></li>
+                        <li><a href="#"><img class="YouTube" src="./img/svg/Youtube.svg" alt="#"></a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer> 
+ 
+    <aside class="quickButton">
+        <div id="scrollUp" class="scrollbutton" onclick="scrollToTop()">위로 이동</div>
+        <div id="scrollDown" class="scrollbutton" onclick="scrollToBottom()">아래로 이동</div>
     </aside>
-  
+
+    <script>
+
+    </script>
 </body>
 </html>
-
+ 
