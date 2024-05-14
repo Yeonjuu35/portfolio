@@ -7,10 +7,29 @@ $textGray : #333333;
 $textWhite : #ffffff;
 $formGray : #848484;
 
-.scrollbutton{
+
+#quickButton{
+    display: none;
     position: fixed;
+    bottom: calc(50vh + 120px) ; 
     right: 20px;
-    bottom: 50vh;
-    background-color: $peaceBlue;
-    border: 1px solid none;
+    .scrollbutton {
+        background-color: $peaceBlue;
+        padding: 15px;
+        border-radius: 100px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        i{
+            font-size: 2rem;
+            color: $textWhite;
+        }
+        .quicktext{
+            position : absolute;
+            width : 0;
+            height : 0;
+            display : block;
+            overflow : hidden;
+            opacity : 0;
+        }
+    }
 }

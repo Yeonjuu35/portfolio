@@ -49,6 +49,7 @@
     <!-- 커스터마이징 -->
     <link rel="stylesheet" href="./css/common.min.css">
     <link rel="stylesheet" href="./css/navibar.min.css">
+    <link rel="stylesheet" href="./css/mainslide.min.css">
     <link rel="stylesheet" href="./css/footer.min.css">
     <link rel="stylesheet" href="./css/quick.min.css">
 </head>
@@ -72,6 +73,7 @@
     </header>
 
     <section id="mainSlider">
+        
     </section>
 
     <section id="mainContents">
@@ -117,10 +119,14 @@
                 </div>
         </div>
     </footer> 
- 
-    <aside class="quickButton">
-        <div id="scrollUp" class="scrollbutton" onclick="scrollToTop()">위로 이동</div>
-        <div id="scrollDown" class="scrollbutton" onclick="scrollToBottom()">아래로 이동</div>
+    <!-- 퀵버튼 : display:none 상태  -->
+    <aside id="quickButton">
+        <div id="scrollUp" class="scrollbutton" onclick="scrollToTop()">
+            <i class="bi bi-chevron-up"></i><span class="quicktext">위로 이동</span>
+        </div>
+        <div id="scrollDown" class="scrollbutton" onclick="scrollToBottom()">
+            <i class="bi bi-chevron-down"></i><span class="quicktext">아래로 이동</span>
+        </div>
     </aside>
 
     <script>

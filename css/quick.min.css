@@ -1,1 +1,1 @@
-.scrollbutton{position:fixed;right:20px;bottom:50vh;background-color:#1a1c26;border:1px solid none}
+#quickButton{display:none;position:fixed;bottom:calc(50vh + 120px);right:20px}#quickButton .scrollbutton{background-color:#1a1c26;padding:15px;border-radius:100px;cursor:pointer;margin-bottom:5px}#quickButton .scrollbutton i{font-size:2rem;color:#fff}#quickButton .scrollbutton .quicktext{position:absolute;width:0;height:0;display:block;overflow:hidden;opacity:0}

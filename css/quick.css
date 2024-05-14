@@ -1,7 +1,25 @@
-.scrollbutton {
+#quickButton {
+  display: none;
   position: fixed;
+  bottom: calc(50vh + 120px);
   right: 20px;
-  bottom: 50vh;
+}
+#quickButton .scrollbutton {
   background-color: #1A1C26;
-  border: 1px solid none;
+  padding: 15px;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+#quickButton .scrollbutton i {
+  font-size: 2rem;
+  color: #ffffff;
+}
+#quickButton .scrollbutton .quicktext {
+  position: absolute;
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
 }
