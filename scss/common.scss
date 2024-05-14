@@ -7,8 +7,8 @@ $textWhite : #ffffff;
 $formGray : #848484;
 
 // 자간+행간 
-$letterspace06 : -0.5rem;
-$letterspace08 : -0.3rem;
+$letterspace06 : -0.05rem;
+$letterspace08 : 1rem;
 $letterspace500 : 5rem;
 $letterspace1200 : 12rem;
 $lineheight25 : 1.25rem;
@@ -163,3 +163,5 @@ $lineheight27 : 1.5rem;
     font-size: 20px;
     letter-spacing: $letterspace06;
 }
+
+// 그리드 가이드

@@ -2,7 +2,7 @@
   font-family: "josepin sans";
   font-weight: 200;
   font-size: 15px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .josepinLight500 {
@@ -16,14 +16,14 @@
   font-family: "josepin sans";
   font-weight: 600;
   font-size: 35px;
-  letter-spacing: -0.3rem;
+  letter-spacing: 1rem;
 }
 
 .josepinSemi65 {
   font-family: "josepin sans";
   font-weight: 600;
   font-size: 65px;
-  letter-spacing: -0.3rem;
+  letter-spacing: 1rem;
 }
 
 .josepinBold {
@@ -37,21 +37,21 @@
   font-family: "noto sans kr";
   font-weight: 100;
   font-size: 16px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoRegular14 {
   font-family: "noto sans kr";
   font-weight: 400;
   font-size: 14px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoRegular16 {
   font-family: "noto sans kr";
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
   line-height: 1.25rem;
 }
 
@@ -59,35 +59,35 @@
   font-family: "noto sans kr";
   font-weight: 400;
   font-size: 17px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoRegular20 {
   font-family: "noto sans kr";
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoMedium15 {
   font-family: "noto sans kr";
   font-weight: 500;
   font-size: 15px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoMedium16 {
   font-family: "noto sans kr";
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoMedium17 {
   font-family: "noto sans kr";
   font-weight: 500;
   font-size: 17px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
   line-height: 1.5rem;
 }
 
@@ -95,35 +95,35 @@
   font-family: "noto sans kr";
   font-weight: 500;
   font-size: 24px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi12 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi15 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 15px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi16 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 16px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi1806 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 18px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi18500 {
@@ -137,33 +137,33 @@
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 20px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi22 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 22px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoSemi24 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 24px;
-  letter-spacing: -0.3rem;
+  letter-spacing: 1rem;
 }
 
 .notoSemi35 {
   font-family: "noto sans kr";
   font-weight: 600;
   font-size: 35px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .notoBold {
   font-family: "noto sans kr";
   font-weight: 700;
   font-size: 20px;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.05rem;
 }
