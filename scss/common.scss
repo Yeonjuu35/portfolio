@@ -1,0 +1,165 @@
+// 폰트 색상
+$peaceGreen : #74BF31;
+$peaceOrange : #FF8100;
+$textBlack : #000000;
+$textGray : #333333;
+$textWhite : #ffffff;
+$formGray : #848484;
+
+// 자간+행간 
+$letterspace06 : -0.5rem;
+$letterspace08 : -0.3rem;
+$letterspace500 : 5rem;
+$letterspace1200 : 12rem;
+$lineheight25 : 1.25rem;
+$lineheight27 : 1.5rem;
+
+// 폰트
+// josepin sans
+.josepinLight06{
+    font-family: 'josepin sans';
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: $letterspace06;
+} 
+.josepinLight500{
+    font-family: 'josepin sans';
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: $letterspace500;
+} 
+.josepinSemi35{
+    font-family: 'josepin sans';
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: $letterspace08;
+}
+.josepinSemi65{
+    font-family: 'josepin sans';
+    font-weight: 600;
+    font-size: 65px;
+    letter-spacing: $letterspace08;
+}
+.josepinBold{
+    font-family: 'josepin sans';
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: $letterspace1200;
+}
+// noto sans kr
+.notoThin{
+    font-family: 'noto sans kr';
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: $letterspace06;
+}
+.notoRegular14{
+    font-family: 'noto sans kr';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: $letterspace06;
+}
+.notoRegular16{
+    font-family: 'noto sans kr';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: $letterspace06;
+    line-height: $lineheight25;
+}
+.notoRegular17{
+    font-family: 'noto sans kr';
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: $letterspace06;
+}
+.notoRegular20{
+    font-family: 'noto sans kr';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: $letterspace06;
+}
+.notoMedium15{
+    font-family: 'noto sans kr';
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: $letterspace06;
+}
+.notoMedium16{
+    font-family: 'noto sans kr';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: $letterspace06;
+}
+.notoMedium17{
+    font-family: 'noto sans kr';
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: $letterspace06;
+    line-height: $lineheight27;
+}
+.notoMedium24{
+    font-family: 'noto sans kr';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi12{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi15{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi16{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi1806{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi18500{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: $letterspace500;
+}
+.notoSemi20{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi22{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: $letterspace06;
+}
+.notoSemi24{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: $letterspace08;
+}
+.notoSemi35{
+    font-family: 'noto sans kr';
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: $letterspace06;
+}
+.notoBold{
+    font-family: 'noto sans kr';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: $letterspace06;
+}
